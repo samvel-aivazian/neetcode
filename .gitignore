@@ -1,10 +1,10 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
+# BlueJ specific files
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
@@ -19,6 +19,21 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+.idea_modules/
+
+# Target directory
+target/
+
+# Mac OS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
