@@ -9,6 +9,30 @@ testing it thoroughly, and comprehending the time and space complexities associa
 The implementation is done using clean Java, without any external libraries, to provide a fundamental understanding 
 of the data structure and its operations.
 
+## Problem Statement
+
+Design a Singly Linked List class.
+
+Your LinkedList class should support the following operations:
+
+1. **LinkedList()**
+   - Initializes an empty linked list.
+
+2. **int get(int i)**
+   - Returns the value of the ith node (0-indexed). If the index is out of bounds, return `-1`.
+
+3. **void insertHead(int val)**
+   - Inserts a node with `val` at the head of the list.
+
+4. **void insertTail(int val)**
+   - Inserts a node with `val` at the tail of the list.
+
+5. **boolean remove(int i)**
+   - Removes the **i**th node (0-indexed). If the index is out of bounds, return `false`, otherwise return `true`.
+
+6. **int[] getValues()**
+   - Returns an array of all the values in the linked list, ordered from head to tail.
+
 ## Features
 
 - Implementation of a singly linked list with insertion, retrieval, and removal operations.
