@@ -9,7 +9,7 @@ import java.util.List;
  * Note: To enable assertions, you need to add the VM argument `-ea` when running the tests.
  * </p>
  */
-public class LinkedListTest {
+public final class LinkedListTest {
 
     /**
      * Main method to run all the test cases.

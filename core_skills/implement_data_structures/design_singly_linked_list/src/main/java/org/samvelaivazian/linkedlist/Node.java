@@ -4,7 +4,7 @@ package org.samvelaivazian.linkedlist;
  * This class represents a node in a linked list.
  * Each node contains a value and a reference to the next node in the list.
  */
-public class Node {
+public final class Node {
 
     /**
      * The value stored in this node.
@@ -30,7 +30,7 @@ public class Node {
      *
      * @return the value of this node
      */
-    public final int getValue() {
+    public int getValue() {
         return value;
     }
 
@@ -39,7 +39,7 @@ public class Node {
      *
      * @return the next node, or null if there is no next node
      */
-    public final Node getNext() {
+    public Node getNext() {
         return next;
     }
 
@@ -48,7 +48,7 @@ public class Node {
      *
      * @param next the node to be set as the next node
      */
-    public final void setNext(final Node next) {
+    public void setNext(final Node next) {
         this.next = next;
     }
 

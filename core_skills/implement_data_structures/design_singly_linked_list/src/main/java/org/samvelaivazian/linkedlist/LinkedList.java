@@ -12,7 +12,7 @@ import java.util.List;
  * and keeps track of the size of the list.
  * </p>
  */
-public class LinkedList {
+public final class LinkedList {
 
     /**
      * The head node of the linked list.
@@ -47,7 +47,7 @@ public class LinkedList {
      * @throws IndexOutOfBoundsException if the index is out of bounds
      * @complexity Time: O(n), where n is the index. Space: O(1).
      */
-    public final int get(final int index) {
+    public int get(final int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
@@ -67,7 +67,7 @@ public class LinkedList {
      * @param value the value to insert at the head
      * @complexity Time: O(1). Space: O(1).
      */
-    public final void insertHead(final int value) {
+    public void insertHead(final int value) {
         final Node newNode = new Node(value);
 
         if (head == null) {
@@ -87,7 +87,7 @@ public class LinkedList {
      * @param value the value to insert at the tail
      * @complexity Time: O(1). Space: O(1).
      */
-    public final void insertTail(final int value) {
+    public void insertTail(final int value) {
         final Node newNode = new Node(value);
 
         if (tail == null) {
@@ -108,7 +108,7 @@ public class LinkedList {
      * @return true if the node was removed, false if the index is out of bounds
      * @complexity Time: O(n), where n is the index. Space: O(1).
      */
-    public final boolean remove(final int index) {
+    public boolean remove(final int index) {
         if (index < 0 || index >= size) {
             return false;
         }
@@ -143,7 +143,7 @@ public class LinkedList {
      * @return a list of all values in the linked list from head to tail
      * @complexity Time: O(n), where n is the size of the list. Space: O(n).
      */
-    public final List<Integer> getValues() {
+    public List<Integer> getValues() {
         final List<Integer> values = new ArrayList<>();
         Node current = head;
 
