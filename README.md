@@ -31,10 +31,47 @@ Follow the instructions in the subproject's `README.md` to compile and run the c
 
 ```bash
 git clone https://github.com/samvel-aivazian/neetcode.git
-cd neetcode/core_skills/implement_data_structures/design_singly_linked_list
-javac -cp . org/samvelaivazian/linkedlist/*.java
-java -ea org.samvelaivazian.linkedlist.LinkedListTest
+cd neetcode
 ```
+
+### Running a Specific Subproject
+
+1. Navigate to the subproject directory:
+
+    ```bash
+    cd <subproject_directory>
+    ```
+
+   Replace `<subproject_directory>` with the path to the specific subproject you want to run. For example:
+
+    ```bash
+    cd core_skills/implement_data_structures/design_singly_linked_list
+    ```
+
+2. Compile the Java files:
+
+    ```bash
+    javac -cp . org/samvelaivazian/<subproject>/*.java
+    ```
+
+   Replace `<subproject>` with the package name specific to the subproject. For example:
+
+    ```bash
+    javac -cp . org/samvelaivazian/linkedlist/*.java
+    ```
+
+3. Run the test class:
+
+    ```bash
+    java -ea org/samvelaivazian/<subproject>/<TestClassName>
+    ```
+
+   Replace `<subproject>` with the package name and `<TestClassName>` with the name of the test class 
+   specific to the subproject. For example:
+
+    ```bash
+    java -ea org.samvelaivazian.linkedlist.LinkedListTest
+    ```
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
