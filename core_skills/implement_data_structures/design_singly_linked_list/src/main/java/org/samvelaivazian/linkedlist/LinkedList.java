@@ -31,6 +31,7 @@ public final class LinkedList {
 
     /**
      * Constructs an empty linked list.
+     * @complexity Time: O(1). Space: O(1).
      */
     public LinkedList() {
         this.head = null;
