@@ -17,19 +17,17 @@ public final class Solution {
     /**
      * Computes the shortest paths from the source vertex to all other vertices in the graph using Dijkstra's algorithm.
      *
-     * @param n The number of vertices in the graph
-     * @param edges            A list of edges, where each edge is represented as a list of integers
-     *                         [source, destination, weight]
-     * @param src     The source vertex
+     * @param n     The number of vertices in the graph
+     * @param edges A list of edges, where each edge is represented as a list of integers
+     *              [source, destination, weight]
+     * @param src   The source vertex
      * @return A map where the keys are vertices, and the values are the shortest distance from the source vertex
      *         to that vertex or -1 if the vertex is unreachable from the source
      * @throws IndexOutOfBoundsException if the source vertex is out of bounds
      * @complexity Time: O((V + E) log V), where V is the number of vertices, and E is the number of edges.
      *             Space: O(V + E), to store the adjacency list, the shortest path map, and the priority queue.
      */
-    public Map<Integer, Integer> shortestPath(final int n,
-                                              final List<List<Integer>> edges,
-                                              final int src) {
+    public Map<Integer, Integer> shortestPath(final int n, final List<List<Integer>> edges, final int src) {
         // Check if the source vertex is out of bounds
         if (src < 0 || src >= n) {
             throw new IndexOutOfBoundsException("Source vertex is out of bounds, must be within 0 and " + (n - 1));
