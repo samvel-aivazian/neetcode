@@ -91,8 +91,8 @@ The test cases verify the functionality of each shape and ensure that the correc
 
 ### Running Tests
 
-To run the tests and see the assertion results, make sure to enable assertions by adding the `-ea` VM argument when
-running the tests.
+To run the tests and see the assertion results, 
+make sure to enable assertions by adding the `-ea` VM argument when running the tests.
 
 ### Test Coverage
 
