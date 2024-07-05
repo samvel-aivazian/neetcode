@@ -3,19 +3,25 @@
 ## Project Description
 
 This repository contains solutions to NeetCode problems implemented in Java 21.
-The main goal of this repository is
-to provide a comprehensive collection of solutions for various data structures and algorithm problems,
-showcasing clean code and thorough testing practices.
+The main goal of this repository is to provide a comprehensive collection of solutions for various data structures, 
+algorithms, sorting techniques, and design patterns, showcasing clean code and thorough testing practices.
 
 ## Structure
 
 The repository is organized into multiple subprojects, each representing a different problem or topic.
 Each subproject contains its own `README.md` with specific details about the implementation and testing.
 
+### Subprojects
+
+- **Design Patterns**: Implementation of design patterns.
+- **Graphs**: Solutions to graph-related problems.
+- **Data Structures**: Implementation of data structures.
+- **Sorting**: Implementation of sorting algorithms.
+
 ## Features
 
 - Solutions to various NeetCode problems.
-- Implementation of data structures and algorithms in clean Java code.
+- Implementation of data structures, algorithms, and design patterns in clean Java code.
 - Comprehensive test cases for each implementation.
 - Detailed documentation for each subproject.
 - Full test coverage for all implementations.
@@ -78,4 +84,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Acknowledgements
 This project was inspired by the problem description on [NeetCode](https://neetcode.io/).
-The implementations and testing were done to deepen the understanding of data structures and algorithms in Java.
+The implementations and testing were done to deepen the understanding of 
+data structures, algorithms, and design patterns in Java.
