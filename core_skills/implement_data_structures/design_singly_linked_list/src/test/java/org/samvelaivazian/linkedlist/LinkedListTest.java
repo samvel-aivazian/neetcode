@@ -213,4 +213,15 @@ public final class LinkedListTest {
         assert valuesAfterClearing.isEmpty() : "Test getValues failed - should return an empty list after clearing the LinkedList";
     }
 
+    /**
+     * Private constructor to prevent instantiation.
+     * <p>
+     * This constructor is intentionally declared as private to prevent instantiation of this test class.
+     * All methods in this class are static and should be accessed statically.
+     * </p>
+     */
+    private LinkedListTest() {
+        // This constructor is intentionally empty. Nothing special is needed here.
+    }
+
 }

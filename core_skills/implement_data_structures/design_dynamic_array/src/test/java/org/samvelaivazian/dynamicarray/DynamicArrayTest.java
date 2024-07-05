@@ -222,4 +222,15 @@ public final class DynamicArrayTest {
         assert array.getCapacity() == 4 : "Capacity should be 4 after resize";
     }
 
+    /**
+     * Private constructor to prevent instantiation.
+     * <p>
+     * This constructor is intentionally declared as private to prevent instantiation of this test class.
+     * All methods in this class are static and should be accessed statically.
+     * </p>
+     */
+    private DynamicArrayTest() {
+        // This constructor is intentionally empty. Nothing special is needed here.
+    }
+
 }

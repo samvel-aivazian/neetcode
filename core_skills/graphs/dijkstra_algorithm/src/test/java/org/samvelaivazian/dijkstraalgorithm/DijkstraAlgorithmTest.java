@@ -164,4 +164,15 @@ public final class DijkstraAlgorithmTest {
         return solution.shortestPath(numberOfVertices, edges, sourceVertex);
     }
 
+    /**
+     * Private constructor to prevent instantiation.
+     * <p>
+     * This constructor is intentionally declared as private to prevent instantiation of this test class.
+     * All methods in this class are static and should be accessed statically.
+     * </p>
+     */
+    private DijkstraAlgorithmTest() {
+        // This constructor is intentionally empty. Nothing special is needed here.
+    }
+
 }

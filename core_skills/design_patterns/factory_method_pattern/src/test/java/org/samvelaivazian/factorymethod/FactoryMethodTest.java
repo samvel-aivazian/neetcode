@@ -83,4 +83,15 @@ public final class FactoryMethodTest {
         assert vehicle instanceof Bike : "Created vehicle should be instance of Bike";
     }
 
+    /**
+     * Private constructor to prevent instantiation.
+     * <p>
+     * This constructor is intentionally declared as private to prevent instantiation of this test class.
+     * All methods in this class are static and should be accessed statically.
+     * </p>
+     */
+    private FactoryMethodTest() {
+        // This constructor is intentionally empty. Nothing special is needed here.
+    }
+
 }
