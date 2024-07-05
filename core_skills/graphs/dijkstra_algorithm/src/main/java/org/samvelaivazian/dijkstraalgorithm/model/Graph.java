@@ -1,4 +1,4 @@
-package org.samvelaivazian.dijkstraalgorithm;
+package org.samvelaivazian.dijkstraalgorithm.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;

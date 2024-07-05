@@ -1,4 +1,4 @@
-package org.samvelaivazian.sort.insertion;
+package org.samvelaivazian.sort.insertion.model;
 
 /**
  * Represents an immutable key-value pair where the key is an integer and the value is a string.

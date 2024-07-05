@@ -1,4 +1,4 @@
-package org.samvelaivazian.dijkstraalgorithm;
+package org.samvelaivazian.dijkstraalgorithm.model;
 
 /**
  * This class represents a node in the priority queue, containing the distance and the vertex.

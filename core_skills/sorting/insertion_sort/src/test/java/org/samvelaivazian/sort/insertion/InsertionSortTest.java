@@ -1,5 +1,7 @@
 package org.samvelaivazian.sort.insertion;
 
+import org.samvelaivazian.sort.insertion.model.Pair;
+
 import java.util.ArrayList;
 import java.util.List;
 

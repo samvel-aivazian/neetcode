@@ -1,5 +1,7 @@
 package org.samvelaivazian.linkedlist;
 
+import org.samvelaivazian.linkedlist.model.Node;
+
 import java.util.ArrayList;
 import java.util.List;
 

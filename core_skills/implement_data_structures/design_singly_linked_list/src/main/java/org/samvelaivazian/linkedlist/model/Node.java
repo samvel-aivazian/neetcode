@@ -1,4 +1,4 @@
-package org.samvelaivazian.linkedlist;
+package org.samvelaivazian.linkedlist.model;
 
 /**
  * This class represents a node in a linked list.

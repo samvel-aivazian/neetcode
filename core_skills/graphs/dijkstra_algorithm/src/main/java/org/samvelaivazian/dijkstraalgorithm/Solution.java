@@ -1,5 +1,8 @@
 package org.samvelaivazian.dijkstraalgorithm;
 
+import org.samvelaivazian.dijkstraalgorithm.model.Graph;
+import org.samvelaivazian.dijkstraalgorithm.model.Node;
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;

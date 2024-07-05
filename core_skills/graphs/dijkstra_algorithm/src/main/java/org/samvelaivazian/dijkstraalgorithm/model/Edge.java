@@ -1,4 +1,4 @@
-package org.samvelaivazian.dijkstraalgorithm;
+package org.samvelaivazian.dijkstraalgorithm.model;
 
 /**
  * This class represents an edge in the graph with a destination vertex and a weight.
