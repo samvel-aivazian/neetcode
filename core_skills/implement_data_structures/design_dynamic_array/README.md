@@ -115,7 +115,7 @@ make sure to enable assertions by adding the `-ea` VM argument when running the 
 
 All test cases pass successfully, and the code coverage is 100%, as shown in the screenshot below:
 
-![test_cases_coverage.png](test_cases_coverage.png)
+![test_cases_coverage.png](assets/test_cases_coverage.png)
 
 ## Requirements
 
