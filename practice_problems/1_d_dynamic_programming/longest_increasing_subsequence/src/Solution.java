@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Solution {
 
     public static void main(String[] args) {
-        final int lisLength = lengthOfLIS(new int[]{1, 3, 4, 1});
+        final int lisLength = lengthOfLIS(new int[]{1, 3, 4, 1, 5});
         System.out.println("Length of Longest Increasing Subsequence: " + lisLength);
     }
 
